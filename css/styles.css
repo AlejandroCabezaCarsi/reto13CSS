@@ -1,0 +1,100 @@
+.ordenacionColumnas {
+    display: flex;
+    flex-direction: column;
+}
+
+.filaGrandeAbajo {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.columna1 { 
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 75px;
+    background-color: red;
+}
+
+.columna2 { 
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 75px;
+    background-color: blue;
+
+}
+
+.columna3 { 
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 75px;
+    background-color: yellow;
+}
+
+.celda1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    height: 25px;
+    background-color: rgb(86, 240, 137);
+}
+
+.celda2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: solid 1px black;
+    height: 50px;
+    border-top: 0px;
+    background-color: aqua;
+}
+.celda7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    height: 25px;
+    background-color: white;
+} 
+
+.celdasCentrales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    height: 25px;
+    color: red;
+    background-color: white;
+}
+
+.celda4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    height: 25px;
+    background-color: white;
+}
+
+.celda6 { 
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    border: solid 1px black;
+    height: 50px;
+    border-top: 0px;
+    background-color: rgb(165, 9, 152);
+}
+
+
+
+
+
+body{ 
+    width: 600px;
+    height: 500px;
+}
